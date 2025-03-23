@@ -43,6 +43,7 @@ in {
     ./wgsl.nix
     ./yaml.nix
     ./ruby.nix
+    ./latex.nix
   ];
 
   options.vim.languages = {
