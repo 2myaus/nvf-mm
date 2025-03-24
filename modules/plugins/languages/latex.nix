@@ -75,10 +75,12 @@ in {
               },
               chktex = {
                 onOpenAndSave = true,
-                onEdit = true,
+                onEdit = false,
               },
               diagnosticsDelay = 300,
-              latexFormatter = 'latexindent',
+              latexFormatter = nil, --'latexindent',
+              -- we could add this as an option. but why try when isaacST08 is doing
+              -- everything better
               latexindent = {
                 ['local'] = nil,
                 modifyLineBreaks = false,
